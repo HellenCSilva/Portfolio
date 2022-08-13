@@ -14,55 +14,127 @@
 
   <header>
     <nav>
-    <a href="#Início">Início</a>
-    <a href="Contatos">Contatos</a>
-    <a href="#Habilidades">Habilidades</a>
-    <a href="Formação">Formação</a>
-    <a href="Experiências">Experiências</a>
+      <a href="#Início" id="menu">Início</a>
+      <a href="Contatos" id="menu">Contatos</a>
+      <a href="#Habilidades" id="menu">Habilidades</a>
+      <a href="Formação" id="menu">Formação</a>
+      <a href="Experiências" id="menu">Experiências</a>
     </nav>
   </header>
 
   <main>
 
-    <section id="Início">
-    <h1>Hellen Costa</h1>
-    <p><Small> Estudante Web Dev e Musicista
-      </Small></p>
+    <section id="inicio">
+      <div id="text">
+      <h1>Hellen Costa</h1>
+      <p><Small> Estudante Web Dev e Musicista
+        </Small></p>
+      </div>
+      <img src="./grafico-de-barras.png" id="imgcab">
     </section>
 
-    <section id="Contatos">
+    <section id="contatos">
       <h2>Contatos</h2>
       <nav>
         <a href="https://github.com/HellenCSilva">GitHub</a>
       </nav>
     </section>
 
-    <section id="Habilidades">
-    <article>
-      <h2>Habilidades</h2>
-      <p>HTML 5</p>
-      <p>CSS3</p>
-      <p>Feedback</p>
-    </article>
+    <section id="habilidades">
+      <article>
+        <h2>Habilidades</h2>
+        <p>HTML 5</p>
+        <p>CSS3</p>
+        <p>Feedback</p>
+      </article>
     </section>
 
-    <section id="Formação"> 
-    <article>
-      <h2>Formação</h2>
-      <p>Lic. em Música - UFAM 2015-2019</p>
-      <p> Marketing - Estácio 2016-2018</p>
-      <p> Dev Web Full Stack - Resilia Educação (Cursando)</p>
-    </article>
+    <section id="formação">
+      <article>
+        <h2>Formação</h2>
+        <p>Lic. em Música - UFAM 2015-2019</p>
+        <p> Marketing - Estácio 2016-2018</p>
+        <p> Dev Web Full Stack - Resilia Educação (Cursando)</p>
+      </article>
     </section>
 
-    <section id="Experiências">
-    <article>
-      <h2>Experiências</h2>
-      <p>Recepcionista - Instituto Nacional de Ciências da Saúde</p>
-      <p>Recepcionista Voluntário - ONG Respeito Não Tem Cor</p>
-      <p>Professora de Música Voluntária - Escola de Artes da UFAM</p>
-    </article>
+    <section id="experiências">
+      <article>
+        <h2>Experiências</h2>
+        <p>Recepcionista - Instituto Nacional de Ciências da Saúde</p>
+        <p>Recepcionista Voluntário - ONG Respeito Não Tem Cor</p>
+        <p>Professora de Música Voluntária - Escola de Artes da UFAM</p>
+      </article>
     </section>
+
+    <!--FOOTER-->
+    <section>
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+
+            <div class="col-2">
+              <h5 class="text-light">Redes Sociais</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Instagram</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Facebook</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Twitter</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Youtube</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-4 offset-1">
+              <form>
+                <h5 class="text-light"> Inscreva-se na newsletter</h5>
+                <p class="text-light">Artigos semanais e conteúdo para desenvolvedores.</p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email" />
+                  <button class="btn btn-warning" type="button">
+                    <a class="link-dark" href="">Inscrever</a>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p class="text-light">&copy; 2022 FrontEnders, Inc. Todos os direitos reservados.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-light" href="#">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-light" href="#">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-light" href="#">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="link-light" href="#">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
   </main>
 
 </body>
